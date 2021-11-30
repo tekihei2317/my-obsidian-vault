@@ -1,11 +1,11 @@
 ---
-sr-due: 2021-11-30
-sr-interval: 1
-sr-ease: 130
+sr-due: 2021-12-04
+sr-interval: 4
+sr-ease: 170
 ---
 #review #TypeScript 
 
-TypeScriptをほとんど知らない状態でType Challengesに挑戦してみたところ、2問目から以下のようなコードが出てきてあんまり理解できませんでした。
+TypeScriptをあまり知らない状態でType Challengesに挑戦してみたところ、2問目から以下のようなコードが出てきてつまづきました。
 
 ```ts
 // ???
@@ -35,7 +35,23 @@ TypeScriptには`number`、`string`、`boolean`、`union`、`array`、`tuple`、
 
 ### array
 
+配列は同じ型のデータを並べたものです。`number`の配列、`string`の配列はそれぞれ`number[]`、`string[]`というように書きます。
+
+```ts
+const numArray: number[] = [3, 1, 4, 1]
+const strArray = ["hello", "world"] // 型はstring[]（明示的に書かなくてもよい）
+```
+
 ### tuple
+
+`tuple`は配列の一種で、要素数とそれぞれの要素の型が決まっているものです。
+
+```ts
+type StringNumberPair = [string, number]
+const a: StringNumberPair = ["hello", 100] // OK
+const b: StringNumberPair = ["hello", "world"] // NG（型 'string' を型 'number' に割り当てることはできません）
+const c: StringNumberPair = ["hello", 100, 200] // NG（型 '[string, number, number]' を型 'StringNumberPair' に割り当てることはできません）
+```
 
 ### object
 
@@ -94,7 +110,7 @@ type Person = {
 const person: Person = { age: 30, name: 'Taro' }
 ```
 
-通常の変数の宣言と型エイリアスを比較してみると、型エイリアスは、ある型を変数に代入しているとも言えると思います（逆に、通常の変数の宣言は値にエイリアスをつけていると言えます）。
+通常の変数の宣言と型エイリアスを比較してみると、型エイリアスは、ある型を変数に代入しているとも言えると思います（逆に、通常の変数の宣言は値にエイリアスをつけていると言えると思います）。
 
 ```ts
 // number型にAgeというエイリアスをつけている
@@ -124,7 +140,7 @@ const var2: any[] = identity('hello') // Type 'string' is not assignable to type
 ジェネリックは以下のように、型エイリアスにも使用することが出来ます。
 
 ```ts
-// 型をnullableにするジェネリック型エイリアス
+// 型Tをnullableにするジェネリック型エイリアス
 type Nullable<T> = T | null
 type strOrNull = Nullable<string> // string | null
 type numOrNull = Nullable<number> // number | null
@@ -146,6 +162,7 @@ type myTuple2 =repeatTuple<myTuple> // [number, string, number, string]
 
 - [プログラミングTypeScript-―スケールするJavaScriptアプリケーション開発](https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0TypeScript-%E2%80%95%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8BJavaScript%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%96%8B%E7%99%BA-Boris-Cherny/dp/4873119049)
 - [TypeScriptの型入門 - Qiita](https://qiita.com/uhyo/items/e2fdef2d3236b9bfe74a)
+- [TypeScript: Documentation - Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html)
 - [TypeScript: Handbook - Generics](https://www.typescriptlang.org/docs/handbook/generics.html)
 - [型変数 (type variables) | TypeScript入門『サバイバルTypeScript』](https://book.yyts.org/reference/generics/type-variables)
 

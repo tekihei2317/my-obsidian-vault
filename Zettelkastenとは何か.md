@@ -1,10 +1,11 @@
 ---
-sr-due: 2021-11-30
-sr-interval: 3
-sr-ease: 250
+sr-due: 2021-12-11
+sr-interval: 11
+sr-ease: 270
 ---
 
 #review
+
 ## Zettelkastenとは
 
 ドイツの学者の二クラス・ルーマンが考えた、情報整理術のこと。以下の3つのポイントを守って、情報を整理する。
