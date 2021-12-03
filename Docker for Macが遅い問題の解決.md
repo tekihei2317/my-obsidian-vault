@@ -26,3 +26,5 @@ Dockerのボリュームの仕様がわからない...（bind mountしている�
 - [Docker の Volume がよくわからないから調べた - Qiita](https://qiita.com/aki_55p/items/63c47214cab7bcb027e0)
   - 匿名ボリューム、名前付きボリューム、バンドマウントが何か理解できる
 - [docker-compose の bind mount を1行で書くな](https://zenn.dev/sarisia/articles/0c1db052d09921)
+
+[[GitHub Codespacesが良さそう]]
