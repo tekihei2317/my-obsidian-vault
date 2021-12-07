@@ -1,9 +1,4 @@
----
-sr-due: 2021-12-04
-sr-interval: 4
-sr-ease: 170
----
-#review #TypeScript 
+#TypeScript 
 
 TypeScriptをあまり知らない状態でType Challengesに挑戦してみたところ、2問目から以下のようなコードが出てきてつまづきました。
 
@@ -93,10 +88,6 @@ union型は、複数の型のいずれかに当てはまるような型を表す
 type stringOrNumber = string | number
 ```
 
-union型の要素にオブジェクト型を使うことも出来ます。`ObjectA | ObjectB`は、単純にどちらかのオブジェクトという訳ではなく、両方のプロパティをとることが出来るようです。
-
-（まだ理解していないため、試したことを残しておきます）[Playground](https://www.typescriptlang.org/play?#code/C4TwDgpgBKkIxQLxQM7AE4EsB2BzKAPlNgK4C2ARhOgNwBQds0AEgPa7TIDedUUAZq1YAuVBhy5eUCgEN0otFjx0Avo3DQACphCskUHn0EixSyX1kAvBeOVqmUNh2279T6EResGAEwgBjABs5aH4SbH9gTFZsAXD-OAAKAEpRd0IoL3o6AHocqEBHRUAsBMA7BkB1hkBbhkBFhkAxhkBihkBrBhLAfwZAIoZAeoZAboZAToZAcwZAWQZAaIY6fxi0KAALdggvfTCIpOS6KecdVgA6Y2Xpr3XZdCg8qGp0VnRt1d09mUtD-JOzhiOAVWxo7BLAMQZAQwZAQAZAEQZAFoMgBiGEqAaPUGoAghkAyvqAMwZAPYMgD8GQCRDIArBn+gBYNQAQKvDABUMgEuGQA-DA1UYNABD-gATCQCa8oAwJVRlVqdUAMgyAIQZAMYMsMhAHkANKokq9X6ARB1AOoMgAsIwB-zkzAMmpgFUEjn-QaASH-cvlXu8SkDgYBpBnBDUAJgz-WG-QC6DOCmYBAY31DPqgCSGQAWirCLQrUYBFBmBgAcGVFo-4jMbASY7NZwNJB1zcARCUQAcmM0agKjux3Qp3Oo2w4xWMzWACZQ5c9BH9jH9vHE0cHmn-YGCwBmfPZ8MGaRyEtyaMAGhb1ig0as0fL9xTj1VUHVMS+f0Aa3J6wDUKojgYMbXVbbPAMkMvUhgAiGX3pzNh1gAFgbswjxhjca7xd7pavNzblgHNCTgGUGYF4okkn10IA)
-
 ## 型エイリアス
 
 型エイリアスとは、その名の通り型に別名をつけるものです。以下のように`type`キーワードを使って宣言します。
@@ -119,7 +110,7 @@ type Age = number
 const age = 30
 ```
 
-そのため、型エイリアスのことを型変数というと考えていたのですが、型変数という用語は、後述するジェネリック型エイリアスで使用するもののことを指すようです。（[型変数 (type variables) | TypeScript入門『サバイバルTypeScript』](https://book.yyts.org/reference/generics/type-variables)）
+そのため、型エイリアスのことを型変数というと考えていたのですが、型変数という用語は、後述するジェネリック型エイリアスで使用するもののことを指すようです（[型変数 (type variables) | TypeScript入門『サバイバルTypeScript』](https://book.yyts.org/reference/generics/type-variables)）。
 
 
 ## ジェネリック型エイリアス
@@ -151,7 +142,7 @@ type myTuple = [number, string]
 type myTuple2 =repeatTuple<myTuple> // [number, string, number, string]
 ```
 
-ジェネリック型エイリアスを使用すると、型から型を作る型エイリアスを作ることができます（関数と考えてよいと思います）。Type Challengesは、このジェネリック型エイリアスを作る問題集です。
+ジェネリック型エイリアスを使用すると、型から型を作る型エイリアスを作ることができます（これは関数と考えてよいと思います）。Type Challengesは、このジェネリック型エイリアスを作る問題集です。
 
 次回、問題の解説に続きます。
 
