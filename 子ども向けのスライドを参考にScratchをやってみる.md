@@ -19,4 +19,4 @@
 
 Scratchでどれくらいまで設計にこだわれるのかが気になる。スプライトにプログラムを紐付けると、複雑になったときに破綻しそうな気がしている。
 
-スライド: https://docs.google.com/presentation/d/1Vm6AieDWL_bzZgwpD_B2UU4arWEsKkf6F3zpU2tVRY0/edit
+[[りんごキャッチ応用編をやってみる]]
