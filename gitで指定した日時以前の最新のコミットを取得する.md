@@ -1,6 +1,6 @@
 ---
-sr-due: 2021-12-11
-sr-interval: 2
+sr-due: 2021-12-12
+sr-interval: 1
 sr-ease: 130
 ---
 

@@ -1,27 +1,26 @@
 ---
-sr-due: 2021-12-11
-sr-interval: 3
-sr-ease: 250
+sr-due: 2021-12-13
+sr-interval: 2
+sr-ease: 190
 ---
-
 #review
 
 # Laravelで入力値をフォームリクエストで加工する
 
-LaravelのAPIリソースが非常に便利だった。APIリソースは、データをレスポンスとして返すときに整形処理をするものである。APIリソースには、返却する値（またはAPIの仕様）を明確にするというメリットがある。
+LaravelのAPIリソースがとても便利だったので、その逆をフォームリクエストでやりたくなった。LaravelのAPIリソースは、Eloquentのモデル（コレクション）をレスポンス用に整形するもので、返却する値（APIの仕様）を明確にすることが出来る。
 
-データを返すときに整形処理をするものが有用なのであれば、データを受け取ったときに整形処理をするものも有用なはずである。そのため、Laravelでどうすれば良いかを調査した。
+その逆というと、リクエストを受け取ってコントローラーに渡す前にデータを加工することである。用途でいうと、キャメルケースをスネークケースに変換したり、...等があると思う。
 
-## 調査
+## 結論
 
-`Laravel リクエスト 加工`などで調べると、`prepareForValidation`と`merge`メソッドを使って、リクエストにプロパティを追加するものが出てきた。ただ今回は、受け取ったものをそのまま置き換えたかったので少し違った。
+xxxクラスの`replace`メソッドまたは`merge`メソッドを使用する。名前の通り、`replace`メソッドはフォームリクエストが保持している入力値を置き換え、`merge`メソッドは入力値に値を追加する。
 
 ```php
 ```
 
-## ソースコードを読む
+## ソースコードを読んでみる
 
-Laravelの`Request`クラス（`Illuminate\Http\Request`）のインスタンスは、入力ソースというものを持っている。以下が入力ソースを取得するメソッドで、HTTPメソッドに応じて返却するものを変えている。
+Laravelの`Request`クラス（`Illuminate\Http\Request`）のインスタンスは、入力ソースというものを持っている。入力ソースはリクエストで送られたデータを表すものである。以下が入力ソースを取得するメソッドで、HTTPメソッドに応じて返却するものを変えていることが分かる。
 
 ```php
 // Illuminate\Http\Request
@@ -31,21 +30,20 @@ protected function getInputSource()
         return $this->json();
     }
 
-	// $queryプロパティと$requestプロパティは、それぞれクエリストリングとリクエストボディを表すインスタンス
+	// $queryプロパティと$requestプロパティは、それぞれクエリストリングとリクエストボディを表すインスタンス(Symfonyのクラス)
     return in_array($this->getRealMethod(), ['GET', 'HEAD']) ? $this->query : $this->request;
 }
 ```
 
-この`getInputSource()`メソッドは、リクエストインスタンスから値を取得するときに使う、`all`メソッドや`input`メソッドで使われている。
+この`getInputSource()`メソッドは、リクエストインスタンスから値を取得するときに使われている。例えば、`all`メソッドや`input`メソッドで使われている。
 
 ```php
 // Illuminate\Http\Concerns\InteractsWithInput（Requestクラスにmixinされているトレイト）
 
-// allメソッドはinputメソッドを使用している
 public function all($keys = null)
 {
+	// allメソッドはinputメソッドを使用している
     $input = array_replace_recursive($this->input(), $this->allFiles());
-
     // 省略
 }
 
@@ -58,7 +56,7 @@ public function input($key = null, $default = null)
 }
 ```
 
-そのため、この入力ソースを丸ごと置き換えてあげれば良いと考えた。`Request`クラスには`replace`メソッドが用意されていたのでそれを使った。ソースコードを少し追ってみると、入力ソースの内容をまるごと指定した配列で置き換えていることが分かった。
+そのため、この入力ソースを変更してあげればよい。`Request`クラスには`replace`メソッドと`merge`メソッドがあるので、それを使用すればよい（処理を追っていくと、入力ソースに変更を加えていることが分かった）。
 
 ```php
 // Illuminate\Http\Request
@@ -68,18 +66,16 @@ public function replace(array $input)
 
     return $this;
 }
+
+// TODO: mergeメソッド
 ```
 
-フォームリクエスト側は以下のように書く（これ最初に持っていったほうがいいな...）。
+## まとめ
 
-```php
-```
-
-これでデータを受け取ったときの整形処理を実装することができた。しかし、フォームリクエストにレスポンスの整形とバリデーションという2つのことをしているので、そこは改善の余地があると考える。
+以上の方法で、リクエストの整形処理を実装することができた。フォームリクエストがリクエストの整形とバリデーションという2つのことをしているので、改善の余地があると思う。
 
 ## 参考
 
 - [バリデーション 8.x Laravel](https://readouble.com/laravel/8.x/ja/validation.html)
   - 入力値の加工に、`prepareForValidation`と`merge`メソッドを使っている
 - [フォームリクエストでバリデーション前後にデータを加工する - Qiita](https://qiita.com/zdjjs/items/cd1c92f82f39a2475104)
-  - ここに大体書いてあることに気がついた。

@@ -1,7 +1,7 @@
 ---
-sr-due: 2021-12-11
-sr-interval: 3
-sr-ease: 250
+sr-due: 2021-12-13
+sr-interval: 2
+sr-ease: 230
 ---
 
 #review
