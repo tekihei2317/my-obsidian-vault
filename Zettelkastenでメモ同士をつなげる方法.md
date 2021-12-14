@@ -19,3 +19,4 @@ Zettelkastenを実践するにあたって、「保存用のメモ」をどの�
 
 - [効率的なノートを作成できるドイツの社会学者が生み出した方法「Zettelkasten」とは？ - GIGAZINE](https://gigazine.net/news/20200604-zettelkasten-note/)
 
+[[効果的なメモの取り方]]
