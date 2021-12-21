@@ -1,4 +1,4 @@
-# 02 - 学習方法MOC
+# 学習方法MOC
 
 - [[Zettelkastenとは何か]]
 - [[Zettelkastenにはメモの種類が3つある]]
