@@ -1,3 +1,3 @@
 # ITインフラMOC
 
-- [[Amazon Web Services MOC]]
+- [[AWS MOC]]
