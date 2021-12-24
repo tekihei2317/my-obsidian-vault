@@ -10,3 +10,41 @@
 
 - 本に印をつけながら全部読む
 - 終わったあとに、印をつけたところを読み返しながら、重要だと思った箇所を抜き出す
+
+2章
+
+- EC2インスタンスの場合、user_data（起動時のコマンド）を指定するとインスタンスを再作成する必要があった
+- 変数、ローカル変数と出力方法
+- terraformはaws cliをバックエンドで利用している？
+
+3章
+
+- TypeScriptみたいな補完とLintがほしい
+  - そこにどういうプロパティを書けるのかが知りたい
+- `リソース種別.リソース名`で他のリソースを参照できる
+- モジュールの作成
+  - モジュールのインターフェイスは、入力→`variable`、出力→`output`で定義する
+- `terraform console`コマンドでREPLを起動できる
+  - あれこれ競技プログラミングできるのでは？
+
+5章 IAM
+
+- IAMのロールとポリシーが良くわかっていない
+
+7章 ネットワーク
+
+- セキュリティグループのアウトバウンドルールって必要なのだろうか
+  - ネットワークに繋がっていないのでyumで失敗していた、必要ですね
+  - 外からアクセスするには不要
+
+8章 ロードバランサとDNS
+
+- ロードバランサとは何か
+  - [１台のEC2でもELBを使うメリットについてまとめてみました | DevelopersIO](https://dev.classmethod.jp/articles/benefit_elb_with_one_ec2/)
+  - 負荷分散以外にも、死活監視、インスタンスの差し替え、SSLの設定などのメリットがある
+
+9章 コンテナオーケストレーション
+
+- 検証レベルでECSを使っていいものなのかが分からない
+ - [迷える子羊に捧げるコンテナ環境徹底比較　〜ECS、Fargate、EKSは何が得意で不得意か〜 - Speaker Deck](https://speakerdeck.com/hamadakoji/mi-eruzi-yang-nipeng-gerukontenahuan-jing-che-di-bi-jiao-ecs-fargate-ekshahe-gade-yi-debu-de-yi-ka?slide=109)
+ - とりあえず迷ったらECS on Fargateとある
