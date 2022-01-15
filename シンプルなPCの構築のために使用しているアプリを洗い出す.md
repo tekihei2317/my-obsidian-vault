@@ -1,0 +1,41 @@
+# シンプルなPCの構築のために使用しているアプリを洗い出す
+
+- 目的
+  - PCを1ヶ月に一度くらいクリーンインストール出来るようにする
+   - デジタル引っ越しによるミニマリズムの実現
+   - クラウドストレージとdotfilesを活用する
+   - シンプルにすることによって、大事なことに集中できるようにする
+   - 自分がどのアプリに依存しているのかを分かるようにする
+- デバイス
+  - MacBook
+  - スマホ→最近ほとんど使っていない
+  - その他（今回はあまり関係ない）
+	- Kindle Paperwhite
+	- スマートウォッチ（Xiaomi MiBand 6）
+- デスクトップアプリケーション
+  - Chrome
+  - Slack
+  - LINE
+  - Google日本語入力
+  - Alfred
+  - Karabiner Elements（キーバインド変更）
+  - Obsidian（ネットワークファーミングツール）
+  - Dynalist（アウトライナー）
+  - Amethyst（ウィンドウマネージャ）
+  - Slidepad（ウインドウに重ねて表示するブラウザ）
+  - Freedom（アプリケーションブロッカー）
+  - 開発
+    - VSCode
+		- 設定がめちゃめちゃになっているのが気になっている
+		- vimみたいにクリーンにしたい（何に依存しているかを設定ファイルにしたい）
+		- Docker for Mac
+		- Postman
+		- Fig
+	- Webアプリケーション
+		- Notion
+		- TaskChute Cloud
+		- Googleスプレッドシート
+		- Dynalist
+		- Money Forward
+- Chrome拡張機能
+  - ログインしたら同期されるのでとりあえずOK
