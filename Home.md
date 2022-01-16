@@ -8,10 +8,13 @@
   - [[学習方法MOC]]
   - [[物事の取り組み方MOC]]
   - [[デジタルライフMOC]]
+  - [[マネジメントMOC]]
 - ソフトウェア開発
+  - [[TypeScript MOC]]
   - [[AWS MOC]]
   - [[ネットワークMOC]]
   - [[SQL MOC]]
+  - [[GraphQL MOC]]
   - [[インフラMOC]]
   - [[Firebase MOC]]
   - [[Misc MOC]]
