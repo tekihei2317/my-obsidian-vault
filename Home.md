@@ -11,6 +11,8 @@
   - [[マネジメントMOC]]
 - ソフトウェア開発
   - [[TypeScript MOC]]
+  - [[Laravel MOC]]
+  - [[Vue MOC]]
   - [[AWS MOC]]
   - [[ネットワークMOC]]
   - [[SQL MOC]]
@@ -21,5 +23,5 @@
 
 ## メモ
 
-- [[読書メモ]]
+- [[Books]]
 - [[Questions]]
