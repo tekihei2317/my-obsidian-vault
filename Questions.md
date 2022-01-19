@@ -11,3 +11,13 @@
 	- Postmanから投げると"Your client has issued a malformed or illegal request."が返ってくる
 - Firestoreは任意のクライアントが任意のクエリを投げることができる？
 	- それをセキュリティルールで保護する感じなのかな
+
+
+```html
+<picture>
+<source type="image/webp" srcset="/cabinet/top/img/company/zelo.png.webp" loading="lazy"><img src="/cabinet/top/img/company/zelo.png" srcset="/cabinet/top/img/company/zelo.png 1x,/cabinet/top/img/company/zelo.png 2x" loading="lazy">
+</picture>
+<picture>
+<source type="image/webp" srcset="/img/legalforce/company/alcien@2x.png.webp" loading="lazy"><img src="/img/legalforce/company/alcien.png" srcset="/img/legalforce/company/alcien.png 1x,/img/legalforce/company/alcien@2x.png 2x" loading="lazy">
+</picture>
+```
