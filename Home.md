@@ -11,6 +11,8 @@
   - [[デジタルライフMOC]]
   - [[マネジメントMOC]]
 - ソフトウェア開発
+	- [フロントエンドMOC](フロントエンドMOC.md)
+	- [データベースMOC](データベースMOC.md)
   - [[TypeScript MOC]]
   - [[Laravel MOC]]
   - [[Vue MOC]]
