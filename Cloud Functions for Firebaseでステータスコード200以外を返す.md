@@ -19,6 +19,8 @@ if (!(typeof text === 'string') || text.length === 0) {
 
 > 関数から HttpsError 以外のエラーがスローされると、クライアントでは代わりにメッセージ INTERNAL とコード internal が含まれるエラーを受け取ります。
 
+`HttpsError`の第一引数にわたすコードについては、[HttpsError | JavaScript SDK  |  Firebase](https://firebase.google.com/docs/reference/js/v8/firebase.functions.HttpsError)を参照する。
+
 ## 余談: 適切なレスポンスを返すことの重要性
 
 既存の実装を見てみると、`{ status: 500 }`みたいなレスポンスを返していて、それは無視されていた。アプリの実行を継続できない状態のまま実行されることのマズさを実感できた。いわゆる、車が壊れているのに走り続けている状態。
