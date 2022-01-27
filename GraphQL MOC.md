@@ -1,5 +1,6 @@
 # GraphQL MOC
 
+[VueとGraphQLで作っているアプリの改善点](VueとGraphQLで作っているアプリの改善点.md)
 - [[GraphQLの実装例を探してみた]]
 - [[GraphQLの参考資料まとめ]]
 - [[RealworldのGraphQL APIをLaravelで実装する]]
