@@ -18,6 +18,9 @@ TODO: GIFを入れる
 
 - [【Scratch】ひらがな・カタカナ・漢字スプライトの使い方 | コドモとアプリ](https://studio.beatnix.co.jp/kids-it/kids-programming/scratch/scratch-material/hiragana-katakana-sprite-manual/)
 - [Scratch（スクラッチ）「タイピング風の文字表示」作り方の説明 -](https://kidsprogram.co.jp/scratch/typping)
+	- 色を変えようと思うと、これみたいに自分で書く必要がありそう
+	- ↑普通の文字でも変更することはできました
+		- [[Scratchで文字の色を変える]]
 - [PTE(ペンテキストエンジン)研究会 - Discuss Scratch](https://scratch.mit.edu/discuss/topic/293540/)
 
 
