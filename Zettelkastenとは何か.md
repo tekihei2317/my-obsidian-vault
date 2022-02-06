@@ -19,3 +19,4 @@ sr-ease: 290
 [Zettelkastenで作成したカードをどのように使うか](Zettelkastenで作成したカードをどのように使うか.md)
 [Zettelkastenでメモ同士をつなげる方法](Zettelkastenでメモ同士をつなげる方法.md)
 [Zettelkastenにはメモの種類が3つある](Zettelkastenにはメモの種類が3つある.md)
+[[Zettelkastenで作成するノートの種類]]
