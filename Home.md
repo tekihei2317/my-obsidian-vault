@@ -26,5 +26,6 @@
 
 ## メモ
 
-- [[Books]]
-- [[Questions]] 
+[[Books]]
+[[Articles]]
+[[Questions]] 

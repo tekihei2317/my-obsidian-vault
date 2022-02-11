@@ -10,6 +10,8 @@
 - [Docker for Macが遅い問題の解決](Docker%20for%20Macが遅い問題の解決.md)
 - [Docker x Laravelが遅い問題を解決する](Docker%20x%20Laravelが遅い問題を解決する.md)
 
+[[ITS工房技術選定]]
+
 ## Inertia
 
 [Inertiaで作ったページから非Inertiaのページにリダイレクトすることは出来ない](Inertiaで作ったページから非Inertiaのページにリダイレクトすることは出来ない.md)
