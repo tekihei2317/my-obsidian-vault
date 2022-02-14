@@ -13,6 +13,7 @@
 - ソフトウェア開発
 	- [フロントエンドMOC](フロントエンドMOC.md)
 	- [データベースMOC](データベースMOC.md)
+	- [Scratch MOC](Scratch%20MOC.md)
 	- [[TypeScript MOC]]
 	- [[Laravel MOC]]
 	- [[Vue MOC]]
