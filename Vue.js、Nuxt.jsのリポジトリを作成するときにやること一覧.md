@@ -8,6 +8,10 @@
 - ESLintの設定をする
 	- 難しい
 - コミット時にLinter、Formatterが実行されるようにする
+- コンポーネントライブラリやCSSをどうするか
+  - `Element UI` 
+  - `Scoped CSS`
+  - `Tailwind CSS`
 
 ### アーキテクチャ
 
