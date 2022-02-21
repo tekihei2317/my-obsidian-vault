@@ -11,6 +11,7 @@
 - [Docker x Laravelが遅い問題を解決する](Docker%20x%20Laravelが遅い問題を解決する.md)
 
 [[ITS工房技術選定]]
+[[ORMについて調べた雑なメモ]]
 
 ## Inertia
 
