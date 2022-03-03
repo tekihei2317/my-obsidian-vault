@@ -1,4 +1,7 @@
 #TypeScript #型パズル
+
+# Type ChallengesのEasyを解く(前半)
+
 interfaceやtypeが何かまだ分かっていないのですが、ノリでやります。
 型を表す変数のことを型変数という？（ここらへんの基本的な概念を知りたい）
 
