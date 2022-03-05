@@ -10,6 +10,8 @@ tags: review
 
 宣言的UIによって、jQueryなどのDOMを直接いじる技術は過去のものになりました。
 
+[[フロントエンドの状態管理とは何か]]
+
 ## 参考
 
 - [宣言的UI - Speaker Deck](https://speakerdeck.com/sonatard/xuan-yan-de-ui)

@@ -1,4 +1,7 @@
-#開発環境
+---
+tags: 開発環境
+---
+
 # GibHub Codespacesが良さそう
 
 Docker for Macが遅いので、いっそのことLinuxを使おうと考えている。そこでクラウドIDEを調べていると、GitpodとGitHub Codespacesの2つが見つかった。GitHub Codespacesが公式なので良さそうな気がしている。
