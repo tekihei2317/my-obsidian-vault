@@ -1,10 +1,10 @@
 ---
-sr-due: 2022-01-03
-sr-interval: 15
-sr-ease: 170
+tags: review
+sr-due: 2022-09-12
+sr-interval: 190
+sr-ease: 190
 ---
 
-#review
 # LaravelでSQLの集計と詳細を一緒に返すAPIを作成する
 
 商品を表す以下のようなテーブルがあるとします。

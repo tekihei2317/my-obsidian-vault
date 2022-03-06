@@ -4,8 +4,6 @@ sr-interval: 26
 sr-ease: 250
 ---
 
-#review
-
 # Vueでチェックボックスのコンポーネントを実装する
 
 [Vue.jsでFormの各要素をComponent化する際の覚え書き - Qiita](https://qiita.com/ryo2132/items/2e3fcedaffeff9fc3967#checkbox)のやり方を参考に実装したが、`v-model`で渡す変数に初期状態があった場合チェックされないという改善点がある。

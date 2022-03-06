@@ -1,11 +1,3 @@
----
-sr-due: 2021-12-27
-sr-interval: 8
-sr-ease: 130
----
-
-#review
-
 # gitで指定した日時以前の最新のコミットを取得する
 
 `git log`の`--pretty`オプションと`--before`（`--until`）オプションを使えば良い。

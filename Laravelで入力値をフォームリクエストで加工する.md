@@ -1,9 +1,9 @@
 ---
-sr-due: 2022-01-10
-sr-interval: 22
-sr-ease: 210
+tags: review
+sr-due: 2022-10-22
+sr-interval: 230
+sr-ease: 230
 ---
-#review
 
 # Laravelで入力値をフォームリクエストで加工する
 

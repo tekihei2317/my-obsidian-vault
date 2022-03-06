@@ -1,11 +1,3 @@
----
-sr-due: 2021-12-25
-sr-interval: 18
-sr-ease: 270
----
-
-#review
-
 # Laravel x VueでRealwoldのGraphQL実装を作る（Part 1）
 
 ## Laravelをインストールする
@@ -35,5 +27,3 @@ sr-ease: 270
 - データベースはひとまずsqliteを使うことにした
 
 [[RealworldのGraphQL APIをLaravelで実装する]]
-
-
