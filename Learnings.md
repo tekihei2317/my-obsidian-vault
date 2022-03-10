@@ -2,6 +2,7 @@
 
 ## 2022/03
 
+[ICONIXプロセスから学ぶオブジェクト指向モデリング](learnings/ICONIXプロセスから学ぶオブジェクト指向モデリング.md)
 [article_vuejsのcreatedとmountedの違いを目で見て理解](article_vuejsのcreatedとmountedの違いを目で見て理解.md)
 [book_みんなのVue.js](book_みんなのVue.js.md)
 [ユースケース駆動開発実践ガイド](learnings/ユースケース駆動開発実践ガイド.md)
