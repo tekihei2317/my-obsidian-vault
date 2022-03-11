@@ -1,5 +1,6 @@
 # Laravel MOC
 
+- [[Laravelでオブジェクト指向設計をするときの方針と参考資料]]
 - [Laravelで入力値をフォームリクエストで加工する](Laravelで入力値をフォームリクエストで加工する.md)
 - [Laravelの環境変数について](Laravelの環境変数について.md)
 - [Laravel本番環境の環境変数の管理について](Laravel本番環境の環境変数の管理について.md)

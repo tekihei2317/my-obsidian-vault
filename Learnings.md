@@ -2,6 +2,8 @@
 
 ## 2022/03
 
+[shin1x1_laravel-ddd-sample](shin1x1_laravel-ddd-sample.md)
+[「ドメインをモデリングして PHP コードに落とし込む」を発表しました](learnings/「ドメインをモデリングして%20PHP%20コードに落とし込む」を発表しました.md)
 [ICONIXプロセスから学ぶオブジェクト指向モデリング](learnings/ICONIXプロセスから学ぶオブジェクト指向モデリング.md)
 [article_vuejsのcreatedとmountedの違いを目で見て理解](article_vuejsのcreatedとmountedの違いを目で見て理解.md)
 [book_みんなのVue.js](book_みんなのVue.js.md)
