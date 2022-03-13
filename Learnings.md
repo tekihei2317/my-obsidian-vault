@@ -2,6 +2,7 @@
 
 ## 2022/03
 
+[ドメイン駆動設計入門](learnings/ドメイン駆動設計入門.md)
 [shin1x1_laravel-ddd-sample](shin1x1_laravel-ddd-sample.md)
 [「ドメインをモデリングして PHP コードに落とし込む」を発表しました](learnings/「ドメインをモデリングして%20PHP%20コードに落とし込む」を発表しました.md)
 [ICONIXプロセスから学ぶオブジェクト指向モデリング](learnings/ICONIXプロセスから学ぶオブジェクト指向モデリング.md)
