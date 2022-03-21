@@ -2,6 +2,9 @@
 
 ## 2022/03
 
+[[anki/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
+[[learnings/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
+[yosupo06_library-checker-problems](learnings/yosupo06_library-checker-problems.md)
 [ドメイン駆動設計入門](learnings/ドメイン駆動設計入門.md)
 [shin1x1_laravel-ddd-sample](shin1x1_laravel-ddd-sample.md)
 [「ドメインをモデリングして PHP コードに落とし込む」を発表しました](learnings/「ドメインをモデリングして%20PHP%20コードに落とし込む」を発表しました.md)

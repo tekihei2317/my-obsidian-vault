@@ -33,6 +33,7 @@
 
 ## メモ
 
+[[Anki]]
 [[Books]]
 [[Articles]]
 [[Questions]] 
