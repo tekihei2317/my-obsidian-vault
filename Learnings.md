@@ -2,7 +2,7 @@
 
 ## 2022/03
 
-[[anki/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
+[[Functional Library_Iteration]]
 [[learnings/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
 [yosupo06_library-checker-problems](learnings/yosupo06_library-checker-problems.md)
 [ドメイン駆動設計入門](learnings/ドメイン駆動設計入門.md)
