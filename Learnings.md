@@ -2,6 +2,7 @@
 
 ## 2022/03
 
+[[Slimのドキュメント]]
 [[Functional Library_Iteration]]
 [[learnings/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
 [yosupo06_library-checker-problems](learnings/yosupo06_library-checker-problems.md)
