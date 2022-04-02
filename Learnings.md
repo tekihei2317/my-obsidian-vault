@@ -1,8 +1,12 @@
 # Learnings
 
+## 2022/04
+
+[[jMatsuzakiさんのNotion講座]]
+[[堤さんの発信講座]]
+
 ## 2022/03
 
-[[堤さんの発信講座]]
 [[Slimのドキュメント]]
 [[Functional Library_Iteration]]
 [[learnings/成功と幸せのための4つのエネルギー管理術―メンタル・タフネス]]
