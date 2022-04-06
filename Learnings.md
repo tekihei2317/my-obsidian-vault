@@ -2,6 +2,8 @@
 
 ## 2022/04
 
+[[GitHub Actionsの公式ドキュメント]]
+[リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術](learnings/リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術.md)
 [[jMatsuzakiさんのNotion講座]]
 [[堤さんの発信講座]]
 
