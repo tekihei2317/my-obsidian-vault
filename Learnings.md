@@ -2,7 +2,7 @@
 
 ## 2022/04
 
-[[GitHub Actionsの公式ドキュメント]]
+[SSLって何？意味や仕組みをわかりやすく解説！](learnings/SSLって何？意味や仕組みをわかりやすく解説！.md)
 [リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術](learnings/リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術.md)
 [[jMatsuzakiさんのNotion講座]]
 [[堤さんの発信講座]]
