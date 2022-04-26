@@ -2,8 +2,9 @@
 
 ## 2022/04
 
+[読んで学ぶTypeScript Part 2](learnings/読んで学ぶTypeScript%20Part%202.md)
 [ジェームズ・クリアー式 複利で伸びる1つの習慣](ジェームズ・クリアー式%20複利で伸びる1つの習慣.md)
-[[サバイバルTypeScript]]
+[サバイバルTypeScript](learnings/サバイバルTypeScript.md)
 [ノートに「ひとつのこと」を「抽象的に書く」メリット](learnings/ノートに「ひとつのこと」を「抽象的に書く」メリット.md)
 [SSLって何？意味や仕組みをわかりやすく解説！](learnings/SSLって何？意味や仕組みをわかりやすく解説！.md)
 [リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術](learnings/リフレクション（REFLECTION）自分とチームの成長を加速させる内省の技術.md)
