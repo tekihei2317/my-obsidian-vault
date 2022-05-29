@@ -1,5 +1,9 @@
 # Learnings
 
+## 2022/05
+
+[ドメイン駆動設計モデリング・実装ガイド](learnings/ドメイン駆動設計モデリング・実装ガイド.md)
+
 ## 2022/04
 
 [読んで学ぶTypeScript Part 2](learnings/読んで学ぶTypeScript%20Part%202.md)
