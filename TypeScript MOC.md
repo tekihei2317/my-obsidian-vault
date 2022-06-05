@@ -1,6 +1,9 @@
 # TypeScript MOC
 
+[[TypeScriptの型パズルとは何か]]
+[[TypeScriptの型エイリアスで使うextendsとは何か]]
 [[JavaScriptのPromiseを理解するための資料]]
+[[TypeScriptのConditional Typesとは何か]]
 
 ## Type Challenges
 
