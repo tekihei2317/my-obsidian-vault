@@ -1,6 +1,7 @@
 # Learnings
 ## 2022/06
 
+[[Reinventing the Transaction Script]]
 [CTOの頭の中_技術を財務で表現する](learnings/CTOの頭の中_技術を財務で表現する.md)
 
 ## 2022/05
