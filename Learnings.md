@@ -1,4 +1,10 @@
 # Learnings
+
+## 2022/07
+
+[私は間違っていた。ごめん。ウォーターフォールは何のメリットも無い](learnings/私は間違っていた。ごめん。ウォーターフォールは何のメリットも無い.md)
+[システムを作らせる技術](learnings/システムを作らせる技術.md)
+
 ## 2022/06
 
 [[Reinventing the Transaction Script]]
